@@ -75,3 +75,30 @@ En esta tarea, configuraremos el servicio Bastion y nos conectaremos a una máqu
 
 ![image](https://user-images.githubusercontent.com/110675810/193922739-76b2765f-7f81-48fa-83fc-7e97f0c5fea4.png)
 
+
+## Tarea 2: Actualizaciones de máquina virtual
+
+Nota: Esta tarea requiere una máquina virtual en ejecución. Es posible que quiera habilitar Update Management antes de esta lección.
+
+En esta tarea, revisaremos la administración de actualizaciones de máquinas virtuales.
+
+1. En el Portal, vaya a su máquina virtual.
+
+![image](https://user-images.githubusercontent.com/110675810/193926757-ee4c015f-99d6-4816-b3c7-54d936f523fe.png)
+
+2. En Operaciones, seleccione Update Management.
+
+![image](https://user-images.githubusercontent.com/110675810/193926978-3f80ba6c-0c0c-4fb1-b881-4d72ea7daab5.png)
+
+3. Seleccione el área de trabajo de Azure Log Analytics y la cuenta de Automation y, a continuación, haga clic en Habilitar.
+
+4. Espere a que Update Management se implemente. La implementación puede tardar hasta 15 minutos y los resultados pueden tardar más.
+
+5. Seleccione Actualizaciones que faltan y use el vínculo Información para abrir el artículo de soporte técnico de la actualización.
+
+6. Seleccione Programar implementación de actualizaciones.
+
+7. Revise las distintas opciones, como las ventanas de mantenimiento, las opciones de reinicio, la programación, las clasificaciones y las bases de conocimiento para incluir y excluir.
+
+8. Puede ver el estado de la implementación en la pestaña Implementaciones de actualización. Los valores disponibles señalan si no se ha intentado, se ha completado correctamente y ha dado error.
+
