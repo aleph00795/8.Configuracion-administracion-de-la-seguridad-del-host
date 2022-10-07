@@ -94,11 +94,47 @@ En esta tarea, revisaremos la administración de actualizaciones de máquinas vi
 
 4. Espere a que Update Management se implemente. La implementación puede tardar hasta 15 minutos y los resultados pueden tardar más.
 
+![image](https://user-images.githubusercontent.com/110675810/194125097-ab37fa27-a2d6-47a2-8fd1-48f19e7ea8aa.png)
+
 5. Seleccione Actualizaciones que faltan y use el vínculo Información para abrir el artículo de soporte técnico de la actualización.
+
+![image](https://user-images.githubusercontent.com/110675810/194125505-2a48a91e-6056-4e88-a616-7f8e4950d8ac.png)
 
 6. Seleccione Programar implementación de actualizaciones.
 
+![image](https://user-images.githubusercontent.com/110675810/194127669-75a4ef31-3637-4552-a595-ee87ed55b3bc.png)
+
+![image](https://user-images.githubusercontent.com/110675810/194128005-bb8f0212-9557-4769-92ab-71e39950e595.png)
+
 7. Revise las distintas opciones, como las ventanas de mantenimiento, las opciones de reinicio, la programación, las clasificaciones y las bases de conocimiento para incluir y excluir.
 
+![image](https://user-images.githubusercontent.com/110675810/194128711-2ebb245d-db79-4355-bf7f-32b0863fff99.png)
+
 8. Puede ver el estado de la implementación en la pestaña Implementaciones de actualización. Los valores disponibles señalan si no se ha intentado, se ha completado correctamente y ha dado error.
+
+
+
+## Tarea 3: Extensiones de máquina virtual
+
+En esta tarea, instalaremos la extensión IaaSAntimalware.
+
+1. En el Portal, seleccione la máquina virtual.
+
+2. En Configuración, haga clic en Extensiones. Revise cómo se usan las extensiones.
+
+3. En la página Extensiones, haga clic en + Agregar.
+
+4. Desplácese por las extensiones disponibles y revise qué extensiones están disponibles.
+
+5. Seleccione Microsoft Antimalware. Analice las características de esta extensión.
+
+6. Haga clic en Crear.
+
+7. En la página Instalar extensión, utilice los iconos informativos para explicar Archivos y ubicaciones excluidos, Extensiones de archivo excluidos y Procesos excluidos.
+
+8. Revise Protección en tiempo real y Ejecutar un análisis programado.
+
+9. Revise otras opciones que le resulten interesantes.
+
+10. Una vez implementada la extensión, la página de extensiones mostrará la extensión IaaSAntimalware.
 
